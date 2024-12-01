@@ -1,0 +1,4525 @@
+fileFormatVersion: 2
+guid: 7a1f54418394fd24f8a540fdec13ddfa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snaring_3_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e8d6b307fa4cb4e8c076e21187b9c3
+      internalID: 1072352392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62591a7d83107c448b024eec62ba90c1
+      internalID: 1027656712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ef9bc611ba68246babe541619edba7
+      internalID: 2010001482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccc8032828c28b4d8d15e989968415f
+      internalID: 100678653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_4
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dddf49e57870e4eaa7ac3b52f0b142
+      internalID: 1528555580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_5
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f7d12edc6de854c9b456297187cee7
+      internalID: 388336327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_6
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de10697a9904f47488258359bcad008f
+      internalID: 1298455731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_7
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709ab3169b76f3f48903bbc3c806b360
+      internalID: 605637238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_8
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce59022c3f9a9fd45b45a7ea30eec9af
+      internalID: 1457632637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_9
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279b37d71b7af794b93a7bb33501b0d6
+      internalID: -220481913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_10
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b54b61b58fc85548911abfe45b4546a
+      internalID: 859060299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_11
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45ae197fc47929428d434d4597b532a
+      internalID: 1277930089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_12
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105f35d35c2e3ca4f9f0c8f13bd4af32
+      internalID: -1759082248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_13
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2544
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1411c22c70b1cb4aa442aa8c26ec95c
+      internalID: 700468825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_14
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e3df8d7a6213848bcdcfd7fa9e5ca4
+      internalID: -1738161625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8980a80b2cc0d4295a86019b72549e
+      internalID: -203886475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_16
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7266b0ff5247a6c4e8f7aebfbea582de
+      internalID: -1066799805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953bcdd3a31eb8840ab94ee290b16673
+      internalID: 1660523646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_18
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8dc507c6f400442941d300ec0f76dc
+      internalID: 2144923772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_19
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ebf94f8cbdd2946a390f8618b9e019
+      internalID: 734572822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_20
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed9d4b32f0079f4dbdbddf224594983
+      internalID: -488428340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_21
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2811b74c0cb2d304e91d9986e58d8f86
+      internalID: 746744770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_22
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01ea9e4350f24944bf9431fb420ef1f
+      internalID: -1337997709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_23
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea103e827e5d3e48adb35a15f3d2fae
+      internalID: -413807941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_24
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1261a516c29d354f9239d46a86c6247
+      internalID: 1534218841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_25
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6daa714b0c9d841977754041d264a6
+      internalID: 222401339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_26
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33533598c9388749b8ef24b9a71c352
+      internalID: -557792387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_27
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2446
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a074701d09aded48abd60a044362011
+      internalID: -71072492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_28
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1217b177d0704384099270d166bd3060
+      internalID: 129204246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55afb0b03f29a64083a9d60d5be77a2
+      internalID: -31783377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_30
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a4f73b3fe6b974d80d65de75a30d81
+      internalID: 1017013005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_31
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de1dcb47d2af224ea8a596ce2bd8464
+      internalID: -278312242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_32
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052e172d312255b4698adab7d223ddba
+      internalID: 1741756880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_33
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0569d848f79dd747b9a1da6d0017ede
+      internalID: -2059777919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_34
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7437e39bf3d11a144a73965b6c6f84f6
+      internalID: -1680469130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_35
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3557fa51fda3940a7b3d8eff240ad9
+      internalID: 274320398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_36
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b50066bdafa624fbb56f19f2225bca
+      internalID: 1289637091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_37
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72886ba24b2521f4397e6212aee754d0
+      internalID: -542004806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_38
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505c2a3fe985cf244b34b214c7903371
+      internalID: -140226745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_39
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be7ccd56aa673845a30cc47ed8ee7fb
+      internalID: 555811949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_40
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fc38d803165054a8599e06533a4d70
+      internalID: 703569684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_41
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2348
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecaa24f419b04a4eaa7ecb751435265
+      internalID: -255484748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfa51dc92344eb4a868829c78083822
+      internalID: -695942984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586476e5b36f2dd4abd861d6830e9280
+      internalID: -634676016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_44
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c307f2e77abdf4590f79cad95cc3de
+      internalID: -619095332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_45
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95ad8ea76a1d0347ae8d679949dd78b
+      internalID: 1750764644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_46
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e027518bc25fa1d4f86f0d363900bbfc
+      internalID: -229032278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_47
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f41f35f51ff02479183d396a5d39ea
+      internalID: 1709547242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_48
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeb9fd85ab647c488c5821f9aa3fe8f
+      internalID: 892267898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_49
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427664a56324d6b4ab10338093b6212c
+      internalID: -721762311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_50
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505328f382dba9549a9fdddf838a8be9
+      internalID: -1729456652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_51
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52742af8f4e2bc149a15509b20577fe0
+      internalID: -2013534607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_52
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212a96c1c6e68814ebff791380345e67
+      internalID: -1658885704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_53
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375debce2e2e98e45833d0a23c56b6e7
+      internalID: -1418171545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_54
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca573c131918ef4ca294b8625c12861
+      internalID: -863348103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_55
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2250
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b12aae74c63b354cbda1d8ce12bebcf
+      internalID: -1529893720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_56
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7477d93155d8eba47aa882c9d5b7e888
+      internalID: 923869376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383cc0497a15843418d77d51056887af
+      internalID: 235993053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_58
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c919d90598a63f4da5d3c48c9ae3bd8
+      internalID: 1620491868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_59
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edd3216c62babc4b821544db126e75a
+      internalID: -1223717163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_60
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac86dbf531188904eb702e43e6ccf33e
+      internalID: 295805993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_61
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d554d5abe0b2a04e91641c239ebace6
+      internalID: 521274619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_62
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbc70191d89397448b9bac9facd107f
+      internalID: -1002834786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_63
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6652e96b5049ba4e9862d258ad5cf68
+      internalID: -547042665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_64
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030db9a25ca0f7549b7ff170e921ff30
+      internalID: -624013834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_65
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10d97c782ddf9f448e31e44fa858acf
+      internalID: -1434654486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_66
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbb14d598b93634094568918087e2d9
+      internalID: -1438619533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_67
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d9cf2610a4578428f5251f8598c126
+      internalID: -1870101724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_68
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab704894b8aae8640ad5f14547689740
+      internalID: -1265127883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_69
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2152
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f9a4f811b407748af571125619dc2f
+      internalID: -735870325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_70
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c6a8d66871e924696a903631c63aab
+      internalID: -304382648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_71
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0424203316dc0479c28a8d3c58d72e
+      internalID: 355807896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_72
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25207c7287c76a4d92a59bb515e746c
+      internalID: 1421747281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_73
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c6ab3598d39b94589ea25c5482a21b
+      internalID: 871816596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_74
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd456b1cd9813d46897847736eff85b
+      internalID: 265674375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_75
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c743c0bd1c708174da77afd6f68d2d83
+      internalID: -494011301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_76
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac85c7e609652b448444af32700b197
+      internalID: -1446409938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_77
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cd8a2f1fc79fb4aa5b73994d0b6306
+      internalID: -460008987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_78
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744c4b5af2849ad4993a2c51b2cac1fd
+      internalID: -1314859086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_79
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511bdb71f0aca2e4093cda13fde8de64
+      internalID: 905027905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_80
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046efcebc24d3fa4bb6d549ddbd2fa7b
+      internalID: 601896742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_81
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91541b2f07a3eb43baf0ba55102c463
+      internalID: -1993435578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_82
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e9f3dd27bd4854781090f10c13e414
+      internalID: -1547494036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_83
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2054
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4129cf9e4f7a446b7e6ab43c33ade5
+      internalID: 2107274391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_84
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70ddd56f3729d4428959f08c80e47a6
+      internalID: -1799914806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_85
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92ad775f6299f04aa5ce1892de2bfd5
+      internalID: -1806932613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_86
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c269e9502b6da41a2377d31cab9469
+      internalID: -733226430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_87
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba221c7c1e2a3f45bc87dd8378e7ed3
+      internalID: -1070036189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_88
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a830fa1c1ed109409b9255bea9e0a3d
+      internalID: -1788683606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_89
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c293b4b262bb1414ca86fdf885e83a21
+      internalID: 753677758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_90
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376ae7ce0ad2521499a9b331aca042a6
+      internalID: -60070240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_91
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310fc543112db5840b95efced7159f22
+      internalID: -1984729989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_92
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebf3a6834bebdf4498f115d4d4922a1
+      internalID: -1868819000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_93
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7990ac8246d21b4f9078a92e3a382ab
+      internalID: 1781690928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_94
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506dfacce730c2f4a9319a769b44205b
+      internalID: 831701932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_95
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3d7cfdefcfcdc4c9a38307635c21b6
+      internalID: 603167848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_96
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ab639ac75e18e49b2da48608cde2c5
+      internalID: 1672423994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_97
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1956
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f40152d7fbdf7043842bbbf5ca595b3
+      internalID: -490455579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_98
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05134c99d36aeb49a224332d3cf1406
+      internalID: -177820286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_99
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e38e33a8e72cb4e84f8abf94cc3b56
+      internalID: 636251852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_100
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf7d2f81bffcc846999a9723e15df30
+      internalID: 1687298265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_101
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1add9dbd3bb6714c81f39fd39cfec40
+      internalID: -927763516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_102
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d4b28058804fc408bb4cea19d44310
+      internalID: 1688694521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_103
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72654f0e762cf784e8dc202dd5da6f51
+      internalID: 1351178535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_104
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94eecbfed91791f429c3511629c7af2c
+      internalID: -319049024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_105
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad1039eda06d2b4ba5f678e9ab52c30
+      internalID: -257673446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_106
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ac46eacea66f3488dffcf4dd16d456
+      internalID: 2019392904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_107
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c49b38db9a35864994d51609e199315
+      internalID: -2143959054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_108
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f1dd805086c844599af972f9284e34
+      internalID: 583358621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_109
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2afcda72c9cc164b9a565db7466e21b
+      internalID: 124288045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_110
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0f066dbdaa2b74c938a4bfe0c7fd0c
+      internalID: -649283685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_111
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1858
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988b76632a24e6c4c81271eefc40ed16
+      internalID: 1044727028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_112
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6486dbfa559a85945a9eed60fb2444f3
+      internalID: 1069185101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_113
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666d8cfe9d07f064c898a005cd6124c4
+      internalID: 1328164231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_114
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f55ef0d0b42bc442aedd675b8934e45
+      internalID: 659035826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_115
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38291ce422ddf744a93b8c71b58c12b
+      internalID: -2113711960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_116
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506097f4d343ffd4abe3cd5303b7209a
+      internalID: 1610933454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_117
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30214f7a14c00ab489e27bee238efb86
+      internalID: -1710593140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_118
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db4aaaf2855b8c4e85a58f766489c5c
+      internalID: 1771173845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_119
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feea055a55ba9024fa778725a8fed3b7
+      internalID: -1100417897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_120
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c533797f23bc949b2c91d964e27091
+      internalID: 1118662731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_121
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3ac57ec16542e4db5343ab07471095
+      internalID: 725500784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_122
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fa90e8c198e734cbf100310ff74c9c
+      internalID: 919586613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_123
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4619c388ae4f34f83cf403734cd65d
+      internalID: -2139935907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_124
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd328fcf02ff1c42b88c2916bad1715
+      internalID: -220484149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_125
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1760
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2880733cdbb2a4a96de01c118c0454
+      internalID: 1070054057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_126
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b53cf1af159ac8428fda0a32f9dd2b2
+      internalID: 1921273527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_127
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7232281a71c8bd841ba3045b34a08ef5
+      internalID: 1721354154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_128
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a5a790a42bfa64aa806f4c3852eb6a
+      internalID: -51803975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_129
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51eb947e2564484c92aa21bd9003627
+      internalID: 1624512217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_130
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e05286b137f1c41871289952406a99
+      internalID: 793347781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_131
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144498406d59a4c43bc5dcfef2ca1657
+      internalID: -408964781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_132
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a975d0e2d9db39042a2215d5a8e94360
+      internalID: -778735193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_133
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d77473a64c940a47bc2c1777edc7f23
+      internalID: -1213340486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_134
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1515b7bfcb97f468085ccd05a9fc78
+      internalID: 528436591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_135
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20db36f44df22ea41a20b45d58fa549c
+      internalID: 1491681006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_136
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9c3f2fa03d62e49863e9d658e236f1
+      internalID: -77986334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_137
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b038e9409970d624b846fcf7f2a4ae64
+      internalID: 2069027262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_138
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206a6e337a3036b4994bf97990d312ce
+      internalID: 433510537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_139
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1662
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3948212c5974d224598623b7d5025109
+      internalID: -807202946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_140
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1f8ba550156284d866f0d9a8b52266
+      internalID: 1502712165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_141
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d149b190abda046b9197b2be93c0a2
+      internalID: -1065112215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_142
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa919d7ad4d8094fb11f7ef0a8f2755
+      internalID: 1255321807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_143
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e395cafe66eed4098f1687929c0d6f
+      internalID: 774705681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_144
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca98b58fef942b43b25f8f7c6906f15
+      internalID: -163490594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_145
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca26d238d9de80459e40a1048d6f39b
+      internalID: 1732956231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_146
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60089e219d29214abdacb5e6d207625
+      internalID: 55033019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_147
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddeb8c5a6d0520e428aed94eb7f60985
+      internalID: -1399849770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_148
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b981be65e832b2c41939b6a661ac544a
+      internalID: -366718198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_149
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ed4aa73e089db49a05847bf0b016ae
+      internalID: -2065652046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_150
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b890178fce9ea4993581946f2f77c1
+      internalID: 1850540861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_151
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44105ac35820bea47b3de7361bd5135d
+      internalID: -1644901325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_152
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086ce3b5113682142af0c6484dc1ff2f
+      internalID: 181339175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_153
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1564
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0b1dda963734f4b93ef9635c72ad32
+      internalID: 1118406673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_154
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7429227e59eb5f48980a41d18452ac8
+      internalID: 25196784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_155
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846141efae2a3734c874befe86631781
+      internalID: -693815370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_156
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3237b07bc4cb4b74db29b152cc8f3351
+      internalID: -363661114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_157
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e905e9e87e68f8a468bd2a0bbfab30a2
+      internalID: -2084002028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_158
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6703df3599a474e4eafeb23f16745e8b
+      internalID: -590625808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_159
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc5886e1caf9e24a8ecd7ca5632e9ca
+      internalID: 876914990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_160
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad63be4337a1fcc4da5c43ea837eacc0
+      internalID: -1211365896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_161
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d23b3e2203621a4a841a746ade4b82b
+      internalID: -2121287166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_162
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25e5a5ed2b879e4997c406870b2c17b
+      internalID: -535759314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_163
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c60f007d6d05eb48bbda206871670e7
+      internalID: -94503779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_164
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11d1baf7e3a29c48a60943022804861
+      internalID: -10247773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_165
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ede092881a6814d859b1af865a6feb
+      internalID: 1369015131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_166
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a6a704e201f2a458753d899b9e3a63
+      internalID: 875901134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_167
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1466
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f432305f1f1f53f4aa32a8e2cd6bd217
+      internalID: 543657276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_168
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2cb57fa7c0dbd46bce1c5f3e30c045
+      internalID: 60033987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_169
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1814d2b4b1e39b49876a22ca84001f7
+      internalID: 1886202602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_170
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16064bc0799dafb44bc89fdd7b469ab7
+      internalID: -1259139079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_171
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960c80632ce1572409f1bf6b29fe461c
+      internalID: -926227219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_172
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124fe8a7878f8c240bff69d4b2a72ce7
+      internalID: 1802953030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_173
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fe2d70d72232c4abe6b7c2804cd13e
+      internalID: -2064526363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_174
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad8453a914953345bd0f48346a1cf5c
+      internalID: 396621675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_175
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c81c4f683bb7c04fb0a012a57368533
+      internalID: -43618828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_176
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184ed84b7be22864aa91ea74c656352a
+      internalID: 170999956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_177
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6130036ca323a614090997b09c9c1265
+      internalID: -837886275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_178
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843d481d78a56c3449fc55ab3cff8022
+      internalID: -1681020856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_179
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99259077385fc074dbe8a26da284e8cd
+      internalID: 1141052605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_180
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0324b867c48367249bc64b14e0ffb762
+      internalID: 1828226751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_181
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1368
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bd5eecb2c15a24795b61bc04e9ec23
+      internalID: 1403398250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_187
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 878
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727e756b9580230499506f6ccf2061d8
+      internalID: 2075194043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_189
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 878
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb79e3ffd4edc540a5e12f43b12015c
+      internalID: 745442084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_191
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 878
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a252316ea5744438ef4b94c2c9daba
+      internalID: 1311079425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_193
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 878
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf848f756f2d64498d45be4fc63ff36
+      internalID: -735157729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_202
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 682
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c30d566013dee449676120a68e3a18
+      internalID: 103855703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_204
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 682
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d475d530bac6dc43a804b35570dcd16
+      internalID: 1529119866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_206
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 682
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735176a19cf756b4b842c858e29e0293
+      internalID: -1470507661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_208
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 682
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb607f79eca8724e941e739d75b75f3
+      internalID: 1490743714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_218
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 388
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3700aad8e4164ee42a67402865c627bb
+      internalID: -636345619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_220
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 388
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a983212ba8ae3f49b89b43ed21c633f
+      internalID: 1097766060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_222
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 388
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab715f48f6393e469f6c0c107ac3384
+      internalID: -1992425404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_224
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 388
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249ae9a6004958f4f85571300915c96e
+      internalID: 1437448809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_230
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed167e80e3076d4bbd36f00c3c6e43e
+      internalID: 1464451499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_232
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 192
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bfd30c7056da44a902f3c2d4338e97
+      internalID: 995856257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_234
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 192
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21171ba9d3b9bdc47b63068d5d98d8e4
+      internalID: -1143904519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snaring_3_236
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 192
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0f1c589f93234488a7950471524a81
+      internalID: -923328048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Snaring_3_0: 1072352392
+      Snaring_3_1: 1027656712
+      Snaring_3_10: 859060299
+      Snaring_3_100: 1687298265
+      Snaring_3_101: -927763516
+      Snaring_3_102: 1688694521
+      Snaring_3_103: 1351178535
+      Snaring_3_104: -319049024
+      Snaring_3_105: -257673446
+      Snaring_3_106: 2019392904
+      Snaring_3_107: -2143959054
+      Snaring_3_108: 583358621
+      Snaring_3_109: 124288045
+      Snaring_3_11: 1277930089
+      Snaring_3_110: -649283685
+      Snaring_3_111: 1044727028
+      Snaring_3_112: 1069185101
+      Snaring_3_113: 1328164231
+      Snaring_3_114: 659035826
+      Snaring_3_115: -2113711960
+      Snaring_3_116: 1610933454
+      Snaring_3_117: -1710593140
+      Snaring_3_118: 1771173845
+      Snaring_3_119: -1100417897
+      Snaring_3_12: -1759082248
+      Snaring_3_120: 1118662731
+      Snaring_3_121: 725500784
+      Snaring_3_122: 919586613
+      Snaring_3_123: -2139935907
+      Snaring_3_124: -220484149
+      Snaring_3_125: 1070054057
+      Snaring_3_126: 1921273527
+      Snaring_3_127: 1721354154
+      Snaring_3_128: -51803975
+      Snaring_3_129: 1624512217
+      Snaring_3_13: 700468825
+      Snaring_3_130: 793347781
+      Snaring_3_131: -408964781
+      Snaring_3_132: -778735193
+      Snaring_3_133: -1213340486
+      Snaring_3_134: 528436591
+      Snaring_3_135: 1491681006
+      Snaring_3_136: -77986334
+      Snaring_3_137: 2069027262
+      Snaring_3_138: 433510537
+      Snaring_3_139: -807202946
+      Snaring_3_14: -1738161625
+      Snaring_3_140: 1502712165
+      Snaring_3_141: -1065112215
+      Snaring_3_142: 1255321807
+      Snaring_3_143: 774705681
+      Snaring_3_144: -163490594
+      Snaring_3_145: 1732956231
+      Snaring_3_146: 55033019
+      Snaring_3_147: -1399849770
+      Snaring_3_148: -366718198
+      Snaring_3_149: -2065652046
+      Snaring_3_15: -203886475
+      Snaring_3_150: 1850540861
+      Snaring_3_151: -1644901325
+      Snaring_3_152: 181339175
+      Snaring_3_153: 1118406673
+      Snaring_3_154: 25196784
+      Snaring_3_155: -693815370
+      Snaring_3_156: -363661114
+      Snaring_3_157: -2084002028
+      Snaring_3_158: -590625808
+      Snaring_3_159: 876914990
+      Snaring_3_16: -1066799805
+      Snaring_3_160: -1211365896
+      Snaring_3_161: -2121287166
+      Snaring_3_162: -535759314
+      Snaring_3_163: -94503779
+      Snaring_3_164: -10247773
+      Snaring_3_165: 1369015131
+      Snaring_3_166: 875901134
+      Snaring_3_167: 543657276
+      Snaring_3_168: 60033987
+      Snaring_3_169: 1886202602
+      Snaring_3_17: 1660523646
+      Snaring_3_170: -1259139079
+      Snaring_3_171: -926227219
+      Snaring_3_172: 1802953030
+      Snaring_3_173: -2064526363
+      Snaring_3_174: 396621675
+      Snaring_3_175: -43618828
+      Snaring_3_176: 170999956
+      Snaring_3_177: -837886275
+      Snaring_3_178: -1681020856
+      Snaring_3_179: 1141052605
+      Snaring_3_18: 2144923772
+      Snaring_3_180: 1828226751
+      Snaring_3_181: 1403398250
+      Snaring_3_182: -121621414
+      Snaring_3_183: 986082482
+      Snaring_3_184: -359639329
+      Snaring_3_185: -1072088080
+      Snaring_3_186: 25334179
+      Snaring_3_187: 2075194043
+      Snaring_3_188: -1709365518
+      Snaring_3_189: 745442084
+      Snaring_3_19: 734572822
+      Snaring_3_190: -588696764
+      Snaring_3_191: 1311079425
+      Snaring_3_192: 1744154436
+      Snaring_3_193: -735157729
+      Snaring_3_194: -1225118332
+      Snaring_3_195: 1718806338
+      Snaring_3_196: -1816142824
+      Snaring_3_197: 1511743349
+      Snaring_3_198: 1557813852
+      Snaring_3_199: 871132120
+      Snaring_3_2: 2010001482
+      Snaring_3_20: -488428340
+      Snaring_3_200: -1932359342
+      Snaring_3_201: 637502145
+      Snaring_3_202: 103855703
+      Snaring_3_203: -277073388
+      Snaring_3_204: 1529119866
+      Snaring_3_205: -1405047818
+      Snaring_3_206: -1470507661
+      Snaring_3_207: -2119714102
+      Snaring_3_208: 1490743714
+      Snaring_3_209: -1293510425
+      Snaring_3_21: 746744770
+      Snaring_3_210: 1472462572
+      Snaring_3_211: -540813376
+      Snaring_3_212: -1949469247
+      Snaring_3_213: -681971512
+      Snaring_3_214: 407430905
+      Snaring_3_215: -897348923
+      Snaring_3_216: 1344758640
+      Snaring_3_217: 840182421
+      Snaring_3_218: -636345619
+      Snaring_3_219: -2138082758
+      Snaring_3_22: -1337997709
+      Snaring_3_220: 1097766060
+      Snaring_3_221: -1400134605
+      Snaring_3_222: -1992425404
+      Snaring_3_223: 16833393
+      Snaring_3_224: 1437448809
+      Snaring_3_225: -1670290147
+      Snaring_3_226: -1126227653
+      Snaring_3_227: -1428315508
+      Snaring_3_228: 678812110
+      Snaring_3_229: -449245597
+      Snaring_3_23: -413807941
+      Snaring_3_230: 1464451499
+      Snaring_3_231: 1991678519
+      Snaring_3_232: 995856257
+      Snaring_3_233: 978235325
+      Snaring_3_234: -1143904519
+      Snaring_3_235: 1376298023
+      Snaring_3_236: -923328048
+      Snaring_3_237: -1173602435
+      Snaring_3_238: -1176200750
+      Snaring_3_239: -1990139060
+      Snaring_3_24: 1534218841
+      Snaring_3_25: 222401339
+      Snaring_3_26: -557792387
+      Snaring_3_27: -71072492
+      Snaring_3_28: 129204246
+      Snaring_3_29: -31783377
+      Snaring_3_3: 100678653
+      Snaring_3_30: 1017013005
+      Snaring_3_31: -278312242
+      Snaring_3_32: 1741756880
+      Snaring_3_33: -2059777919
+      Snaring_3_34: -1680469130
+      Snaring_3_35: 274320398
+      Snaring_3_36: 1289637091
+      Snaring_3_37: -542004806
+      Snaring_3_38: -140226745
+      Snaring_3_39: 555811949
+      Snaring_3_4: 1528555580
+      Snaring_3_40: 703569684
+      Snaring_3_41: -255484748
+      Snaring_3_42: -695942984
+      Snaring_3_43: -634676016
+      Snaring_3_44: -619095332
+      Snaring_3_45: 1750764644
+      Snaring_3_46: -229032278
+      Snaring_3_47: 1709547242
+      Snaring_3_48: 892267898
+      Snaring_3_49: -721762311
+      Snaring_3_5: 388336327
+      Snaring_3_50: -1729456652
+      Snaring_3_51: -2013534607
+      Snaring_3_52: -1658885704
+      Snaring_3_53: -1418171545
+      Snaring_3_54: -863348103
+      Snaring_3_55: -1529893720
+      Snaring_3_56: 923869376
+      Snaring_3_57: 235993053
+      Snaring_3_58: 1620491868
+      Snaring_3_59: -1223717163
+      Snaring_3_6: 1298455731
+      Snaring_3_60: 295805993
+      Snaring_3_61: 521274619
+      Snaring_3_62: -1002834786
+      Snaring_3_63: -547042665
+      Snaring_3_64: -624013834
+      Snaring_3_65: -1434654486
+      Snaring_3_66: -1438619533
+      Snaring_3_67: -1870101724
+      Snaring_3_68: -1265127883
+      Snaring_3_69: -735870325
+      Snaring_3_7: 605637238
+      Snaring_3_70: -304382648
+      Snaring_3_71: 355807896
+      Snaring_3_72: 1421747281
+      Snaring_3_73: 871816596
+      Snaring_3_74: 265674375
+      Snaring_3_75: -494011301
+      Snaring_3_76: -1446409938
+      Snaring_3_77: -460008987
+      Snaring_3_78: -1314859086
+      Snaring_3_79: 905027905
+      Snaring_3_8: 1457632637
+      Snaring_3_80: 601896742
+      Snaring_3_81: -1993435578
+      Snaring_3_82: -1547494036
+      Snaring_3_83: 2107274391
+      Snaring_3_84: -1799914806
+      Snaring_3_85: -1806932613
+      Snaring_3_86: -733226430
+      Snaring_3_87: -1070036189
+      Snaring_3_88: -1788683606
+      Snaring_3_89: 753677758
+      Snaring_3_9: -220481913
+      Snaring_3_90: -60070240
+      Snaring_3_91: -1984729989
+      Snaring_3_92: -1868819000
+      Snaring_3_93: 1781690928
+      Snaring_3_94: 831701932
+      Snaring_3_95: 603167848
+      Snaring_3_96: 1672423994
+      Snaring_3_97: -490455579
+      Snaring_3_98: -177820286
+      Snaring_3_99: 636251852
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

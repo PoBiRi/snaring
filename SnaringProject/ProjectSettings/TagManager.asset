@@ -44,6 +44,9 @@ TagManager:
   - name: Board
     uniqueID: 107643813
     locked: 0
+  - name: color
+    uniqueID: 4202694669
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
