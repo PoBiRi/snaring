@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Blue_Tile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: 265808d4d146f2f4b99f8e5f63a31ebe, type: 3}
+  - {fileID: 21300000, guid: 11756aa84f38ccf4db3ca9fda0497a0c, type: 3}
+  - {fileID: 21300000, guid: 1acde75fe2b65e240b519462f6a412bd, type: 3}
+  - {fileID: 21300000, guid: 5df28ffd7dcd0ef419d782d6b1a3ca0f, type: 3}
+  - {fileID: 21300000, guid: 7aaeadd99f196ba409c6d201daa95b92, type: 3}
+  - {fileID: 21300000, guid: ffbfc3fc72ffc564ba5668e8a059f0f2, type: 3}
+  m_MinSpeed: 12
+  m_MaxSpeed: 12
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0
