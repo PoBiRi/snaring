@@ -23,8 +23,7 @@ public class GamePlay : MonoBehaviour
     private bool isBlueTurn = true;
     private Vector3Int preBluePosition = new Vector3Int(-6,-6,0);
     private Vector3Int preRedPosition = new Vector3Int(5,5,0);
-    public static int WinFlag = 0;
-    // Start is called before the first frame update
+    public static int WinFlag = 0; // 승리 플래그
     int[,] map = new int[14, 14];
 
     private void Start()
@@ -41,14 +40,14 @@ public class GamePlay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        wayToGo(isBlueTurn ? preBluePosition: preRedPosition);
+        wayToGo(isBlueTurn ? preBluePosition: preRedPosition); // 이동가능타일 표기
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 worldPosition = Camera.ScreenToWorldPoint(Input.mousePosition);
             Vector3Int endTilePosition = tilemap.WorldToCell(worldPosition);
 
-            resetZeroTile(isBlueTurn ? preBluePosition : preRedPosition);
-            MoveTile(isBlueTurn ? preBluePosition : preRedPosition, endTilePosition);
+            resetZeroTile(isBlueTurn ? preBluePosition : preRedPosition); // 표기한 이동가능타일 초기화
+            MoveTile(isBlueTurn ? preBluePosition : preRedPosition, endTilePosition); // 타일 이동
         }
     }
 
@@ -57,15 +56,15 @@ public class GamePlay : MonoBehaviour
         if(Mathf.Abs(fromPosition.x -toPosition.x) <= 1 && Mathf.Abs(fromPosition.y -toPosition.y) <= 1 && tilemap.GetTile(fromPosition) != null && tilemap.GetTile(toPosition) == null
             && toPosition.x < 6 && toPosition.y < 6 && toPosition.x >= -6 && toPosition.y >= -6)
         {
-            tilemap.SetTile(toPosition, isBlueTurn ? blue_Player : red_Player);
-            tilemap.SetTile(fromPosition, isBlueTurn ? blue_Tile : red_Tile);
-            tilemap.SetAnimationFrame(toPosition, 0);
+            tilemap.SetTile(toPosition, isBlueTurn ? blue_Player : red_Player); //전 위치에 타일 변경
+            tilemap.SetTile(fromPosition, isBlueTurn ? blue_Tile : red_Tile); //후 위치에 플레이어 이동
+            tilemap.SetAnimationFrame(toPosition, 0); //타일 애니메이션 재생
             tilemap.SetAnimationFrame(fromPosition, 0);
-            StartCoroutine(changeAni(fromPosition, toPosition, isBlueTurn));
-            map[toPosition.x + 7, toPosition.y + 7] = 1;
-            if (isBlueTurn) {preBluePosition = toPosition; isBlueTurn = false;}
+            StartCoroutine(changeAni(fromPosition, toPosition, isBlueTurn)); //타일 애니메이션 변경 코루틴
+            map[toPosition.x + 7, toPosition.y + 7] = 1; // 맵 배열에 플레이어 설정
+            if (isBlueTurn) {preBluePosition = toPosition; isBlueTurn = false;} // 순서플래그에 따른 변수 변경
             else {preRedPosition = toPosition; isBlueTurn = true; }
-            isWin(toPosition);
+            isWin(toPosition); // 승리 판정
         }
     }
 
@@ -79,7 +78,8 @@ public class GamePlay : MonoBehaviour
 
     //승리판정
     void isWin(Vector3Int position) {
-        int count = 0;
+        //position의 근처 9칸 합해서 8 초과시 승리판정
+        int count = 0; 
         for (int x = position.x + 6; x <= position.x + 8; x++) {
             for (int y = position.y + 6; y <= position.y + 8; y++) {
                 if (map[x, y] == 1) count++;
@@ -114,13 +114,13 @@ public class GamePlay : MonoBehaviour
             map[0, i] = 1;
             map[13, i] = 1;
         }
-        tilemap.ClearAllTiles();
-        isBlueTurn = true;
-        preBluePosition = new Vector3Int(-6, -6, 0);
+        tilemap.ClearAllTiles(); // 보드판 초기화
+        isBlueTurn = true; //차례 초기화
+        preBluePosition = new Vector3Int(-6, -6, 0); // 플레이어위치 초기화
         preRedPosition = new Vector3Int(5, 5, 0);
-        tilemap.SetTile(preBluePosition, blue_Player_Ani);
+        tilemap.SetTile(preBluePosition, blue_Player_Ani); // 플레이어위치에 타일 위치
         tilemap.SetTile(preRedPosition, red_Player_Ani);
-        map[preBluePosition.x + 7, preBluePosition.y + 7] = 1;
+        map[preBluePosition.x + 7, preBluePosition.y + 7] = 1; // 맵배열 에 초기위치 설정
         map[preRedPosition.x + 7, preRedPosition.y + 7] = 1;
     }
 
@@ -138,7 +138,7 @@ public class GamePlay : MonoBehaviour
         }
     }
 
-    //리셋 0타일
+    //이동 가능 칸 초기화
     void resetZeroTile(Vector3Int Position)
     {
         for (int x = Position.x + 6; x <= Position.x + 8; x++)

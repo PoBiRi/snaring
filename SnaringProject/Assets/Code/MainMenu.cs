@@ -14,6 +14,7 @@ public class MainMenu : MonoBehaviour
 
     void Update()
     {
+        // 승리 플래그 판정시 종료 화면
         if(GamePlay.WinFlag == 1)
         {
             GameSet.SetActive(true);
@@ -26,6 +27,7 @@ public class MainMenu : MonoBehaviour
         }
     }
 
+    // 게임 시작
     public void startButton()
     {
         MainStuff.SetActive(false);
@@ -33,18 +35,21 @@ public class MainMenu : MonoBehaviour
         Grid.SetActive(true);
     }
 
+    // 옵션 버튼
     public void optionButton()
     {
         MainStuff.SetActive(false);
         Option.SetActive(true);
     }
 
+    // 옵션 뒤로
     public void optionBackButton()
     {
         MainStuff.SetActive(true);
         Option.SetActive(false);
     }
 
+    // 게임종료 후 메인메뉴로
     public void BackButtion()
     {   
         GamePlay.WinFlag = 0;
