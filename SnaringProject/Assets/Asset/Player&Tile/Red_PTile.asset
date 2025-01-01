@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Red_PTile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: 4bc68d9b48950864d95a57ecd53d3cc3, type: 3}
+  - {fileID: 21300000, guid: 9ece5a82a45f04d4792a520811c1af06, type: 3}
+  - {fileID: 21300000, guid: cc5e2c19a9ebdef42b21e6605e24575c, type: 3}
+  - {fileID: 21300000, guid: 0ed427b990dfd39459ca9a6d677a1082, type: 3}
+  - {fileID: 21300000, guid: 780d8227d990d5649bd81ef1eb307df8, type: 3}
+  - {fileID: 21300000, guid: 1f66ba7398c3a024993712f0b3e8d509, type: 3}
+  - {fileID: 21300000, guid: e57fd272ffd37854dbfd7985f095c69d, type: 3}
+  - {fileID: 21300000, guid: 395f79218064c6f4983597a5d2abf7fc, type: 3}
+  - {fileID: 21300000, guid: fb80f9a5774d6c848bc44a4b195c90f7, type: 3}
+  - {fileID: 21300000, guid: 2edf24ac14934304b9a81f3b0f406a96, type: 3}
+  m_MinSpeed: 20
+  m_MaxSpeed: 20
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

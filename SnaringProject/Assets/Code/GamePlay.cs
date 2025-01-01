@@ -14,13 +14,16 @@ public class GamePlay : MonoBehaviour
     public AnimatedTile red_Player;
     public AnimatedTile blue_Tile;
     public AnimatedTile red_Tile;
+    public AnimatedTile blue_PTile;
+    public AnimatedTile red_PTile;
     public AnimatedTile blue_Player_Ani;
     public AnimatedTile red_Player_Ani;
     public AnimatedTile blue_Tile_Ani;
     public AnimatedTile red_Tile_Ani;
     private bool isBlueTurn = true;
     private Vector3Int preBluePosition = new Vector3Int(-6,-6,0);
-    private Vector3Int preRedPosition = new Vector3Int(5,-6,0);
+    private Vector3Int preRedPosition = new Vector3Int(5,5,0);
+    public static int WinFlag = 0;
     // Start is called before the first frame update
     int[,] map = new int[14, 14];
 
@@ -29,7 +32,7 @@ public class GamePlay : MonoBehaviour
         Camera = GameObject.Find("Main Camera").GetComponent<Camera>();
         tilemap.SetTile(preBluePosition, blue_Player_Ani);
         tilemap.SetTile(preRedPosition, red_Player_Ani);
-        resetMap(map);
+        resetMap();
         //기본 시작 위치(변경가능)
         map[preBluePosition.x + 7, preBluePosition.y + 7] = 1;
         map[preRedPosition.x + 7, preRedPosition.y + 7] = 1;
@@ -38,11 +41,13 @@ public class GamePlay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        wayToGo(isBlueTurn ? preBluePosition: preRedPosition);
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 worldPosition = Camera.ScreenToWorldPoint(Input.mousePosition);
             Vector3Int endTilePosition = tilemap.WorldToCell(worldPosition);
-            
+
+            resetZeroTile(isBlueTurn ? preBluePosition : preRedPosition);
             MoveTile(isBlueTurn ? preBluePosition : preRedPosition, endTilePosition);
         }
     }
@@ -83,32 +88,63 @@ public class GamePlay : MonoBehaviour
         if(count > 8) {
             if (isBlueTurn)
             {
+                WinFlag = 1;
                 Debug.Log("gameover Blue win");
             }
             else if (!isBlueTurn)
             {
+                WinFlag = 2;
                 Debug.Log("gameover Red win");
             }
         }
     }
 
     //게임 초기화
-    void resetMap(int[,] arr) {
+    public void resetMap() {
         for (int i = 1; i < 13; i++)
         {
             for (int j = 1; j < 13; j++)
             {
-                arr[i, j] = 0;
+                map[i, j] = 0;
             }
         }
         for (int i = 0; i < 14; i++) {
-            arr[i, 0] = 1;
-            arr[i, 13] = 1;
-            arr[0, i] = 1;
-            arr[13, i] = 1;
+            map[i, 0] = 1;
+            map[i, 13] = 1;
+            map[0, i] = 1;
+            map[13, i] = 1;
         }
         tilemap.ClearAllTiles();
         tilemap.SetTile(new Vector3Int(-6, -6, 0), blue_Player_Ani);
-        tilemap.SetTile(new Vector3Int(5, -6, 0), red_Player_Ani);
+        tilemap.SetTile(new Vector3Int(5, 5, 0), red_Player_Ani);
+    }
+
+    //이동 가능 칸 표시
+    void wayToGo(Vector3Int Position){
+        for (int x = Position.x + 6; x <= Position.x + 8; x++)
+        {
+            for (int y = Position.y + 6; y <= Position.y + 8; y++)
+            {
+                if (map[x, y] == 0)
+                {
+                    tilemap.SetTile(new Vector3Int(x-7, y-7, 0), isBlueTurn ? blue_PTile : red_PTile);
+                }
+            }
+        }
+    }
+
+    //리셋 0타일
+    void resetZeroTile(Vector3Int Position)
+    {
+        for (int x = Position.x + 6; x <= Position.x + 8; x++)
+        {
+            for (int y = Position.y + 6; y <= Position.y + 8; y++)
+            {
+                if (map[x, y] == 0)
+                {
+                    tilemap.SetTile(new Vector3Int(x - 7, y - 7, 0), null);
+                }
+            }
+        }
     }
 }

@@ -6,14 +6,30 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject Grid;
     public GameObject Option;
+    public GameObject Title;
     public GameObject MainStuff;
+    public GameObject BlueWin;
+    public GameObject RedWin;
+    public GameObject GameSet;
+
+    void Update()
+    {
+        if(GamePlay.WinFlag == 1)
+        {
+            GameSet.SetActive(true);
+            BlueWin.SetActive(true);
+        }
+        if(GamePlay.WinFlag == 2)
+        {
+            GameSet.SetActive(true);
+            RedWin.SetActive(true);
+        }
+    }
 
     public void startButton()
     {
-        GameObject tempObj = null;
         MainStuff.SetActive(false);
-        tempObj = GameObject.Find("Title");
-        tempObj.SetActive(false);
+        Title.SetActive(false);
         Grid.SetActive(true);
     }
 
@@ -27,5 +43,16 @@ public class MainMenu : MonoBehaviour
     {
         MainStuff.SetActive(true);
         Option.SetActive(false);
+    }
+
+    public void BackButtion()
+    {   
+        GamePlay.WinFlag = 0;
+        Grid.SetActive(false);
+        MainStuff.SetActive(true);
+        Title.SetActive(true);
+        RedWin.SetActive(false);
+        BlueWin.SetActive(false);
+        GameSet.SetActive(false);
     }
 }
