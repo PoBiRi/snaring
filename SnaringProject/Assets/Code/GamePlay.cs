@@ -115,8 +115,13 @@ public class GamePlay : MonoBehaviour
             map[13, i] = 1;
         }
         tilemap.ClearAllTiles();
-        tilemap.SetTile(new Vector3Int(-6, -6, 0), blue_Player_Ani);
-        tilemap.SetTile(new Vector3Int(5, 5, 0), red_Player_Ani);
+        isBlueTurn = true;
+        preBluePosition = new Vector3Int(-6, -6, 0);
+        preRedPosition = new Vector3Int(5, 5, 0);
+        tilemap.SetTile(preBluePosition, blue_Player_Ani);
+        tilemap.SetTile(preRedPosition, red_Player_Ani);
+        map[preBluePosition.x + 7, preBluePosition.y + 7] = 1;
+        map[preRedPosition.x + 7, preRedPosition.y + 7] = 1;
     }
 
     //이동 가능 칸 표시
