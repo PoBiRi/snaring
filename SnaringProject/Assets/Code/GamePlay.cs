@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Tilemaps;
 using UnityEngine;
-using System.IO;
 
 public class GamePlay : MonoBehaviour
 {
@@ -50,6 +49,7 @@ public class GamePlay : MonoBehaviour
             MoveTile(isBlueTurn ? preBluePosition : preRedPosition, endTilePosition); // 타일 이동
         }
     }
+
 
     //타일 이동
     void MoveTile(Vector3Int fromPosition, Vector3Int toPosition){

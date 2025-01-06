@@ -14,8 +14,13 @@ public class MainMenu : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        { //ESC를 눌렀을때
+            Application.Quit(); //게임/앱 종료.
+            Debug.Log("escape");
+        }
         // 승리 플래그 판정시 종료 화면
-        if(GamePlay.WinFlag == 1)
+        if (GamePlay.WinFlag == 1)
         {
             GameSet.SetActive(true);
             BlueWin.SetActive(true);
