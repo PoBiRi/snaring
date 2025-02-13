@@ -24,6 +24,7 @@ public class GamePlay : MonoBehaviour
     private Vector3Int preRedPosition = new Vector3Int(5,5,0);
     public static int WinFlag = 0; // 승리 플래그
     int[,] map = new int[14, 14];
+    public static bool isGamePaused { get; set; } = false;
 
     private void Start()
     {
@@ -39,6 +40,7 @@ public class GamePlay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isGamePaused) return;
         wayToGo(isBlueTurn ? preBluePosition: preRedPosition); // 이동가능타일 표기
         if (Input.GetMouseButtonDown(0))
         {
@@ -52,8 +54,8 @@ public class GamePlay : MonoBehaviour
 
 
     //타일 이동
-    void MoveTile(Vector3Int fromPosition, Vector3Int toPosition){
-        if(Mathf.Abs(fromPosition.x -toPosition.x) <= 1 && Mathf.Abs(fromPosition.y -toPosition.y) <= 1 && tilemap.GetTile(fromPosition) != null && tilemap.GetTile(toPosition) == null
+    void MoveTile(Vector3Int fromPosition, Vector3Int toPosition) {
+        if (Mathf.Abs(fromPosition.x - toPosition.x) <= 1 && Mathf.Abs(fromPosition.y - toPosition.y) <= 1 && tilemap.GetTile(fromPosition) != null && tilemap.GetTile(toPosition) == null
             && toPosition.x < 6 && toPosition.y < 6 && toPosition.x >= -6 && toPosition.y >= -6)
         {
             tilemap.SetTile(toPosition, isBlueTurn ? blue_Player : red_Player); //전 위치에 타일 변경
@@ -62,10 +64,12 @@ public class GamePlay : MonoBehaviour
             tilemap.SetAnimationFrame(fromPosition, 0);
             StartCoroutine(changeAni(fromPosition, toPosition, isBlueTurn)); //타일 애니메이션 변경 코루틴
             map[toPosition.x + 7, toPosition.y + 7] = 1; // 맵 배열에 플레이어 설정
-            if (isBlueTurn) {preBluePosition = toPosition; isBlueTurn = false;} // 순서플래그에 따른 변수 변경
-            else {preRedPosition = toPosition; isBlueTurn = true; }
+            if (isBlueTurn) { preBluePosition = toPosition; isBlueTurn = false; } // 순서플래그에 따른 변수 변경
+            else { preRedPosition = toPosition; isBlueTurn = true; }
+            SoundsControl.Drawing();
             isWin(toPosition); // 승리 판정
         }
+        else { SoundsControl.CantMove(); }
     }
 
     //타일 애니메이션 변경
