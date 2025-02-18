@@ -100,6 +100,7 @@ public class GamePlay : MonoBehaviour
                 WinFlag = 2;
                 Debug.Log("gameover Red win");
             }
+            SoundsControl.GameOver();
         }
     }
 

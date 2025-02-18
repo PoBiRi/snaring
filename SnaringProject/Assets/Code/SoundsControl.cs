@@ -74,4 +74,9 @@ public class SoundsControl : MonoBehaviour
     {
         instance.audioSource.PlayOneShot(instance.audioClips[5]);
     }
+
+    public static void GameOver()
+    {
+        instance.audioSource.PlayOneShot(instance.audioClips[6]);
+    }
 }
