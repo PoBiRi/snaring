@@ -49,6 +49,8 @@ public class GamePlay : MonoBehaviour
 
             resetZeroTile(isBlueTurn ? preBluePosition : preRedPosition); // 표기한 이동가능타일 초기화
             MoveTile(isBlueTurn ? preBluePosition : preRedPosition, endTilePosition); // 타일 이동
+            isWin(preBluePosition, false);
+            isWin(preRedPosition, true);
         }
     }
 
@@ -67,7 +69,6 @@ public class GamePlay : MonoBehaviour
             if (isBlueTurn) { preBluePosition = toPosition; isBlueTurn = false; } // 순서플래그에 따른 변수 변경
             else { preRedPosition = toPosition; isBlueTurn = true; }
             SoundsControl.Drawing();
-            isWin(toPosition); // 승리 판정
         }
         else { SoundsControl.CantMove(); }
     }
@@ -81,24 +82,27 @@ public class GamePlay : MonoBehaviour
     }
 
     //승리판정
-    void isWin(Vector3Int position) {
+    void isWin(Vector3Int position, bool flag) {
         //position의 근처 9칸 합해서 8 초과시 승리판정
         int count = 0; 
         for (int x = position.x + 6; x <= position.x + 8; x++) {
             for (int y = position.y + 6; y <= position.y + 8; y++) {
-                if (map[x, y] == 1) count++;
+                if (map[x, y] == 1)
+                {
+                    count++;
+                }
             }
         }
         if(count > 8) {
-            if (isBlueTurn)
+            if(flag)
             {
                 WinFlag = 1;
                 Debug.Log("gameover Blue win");
             }
-            else if (!isBlueTurn)
+            else
             {
                 WinFlag = 2;
-                Debug.Log("gameover Red win");
+                Debug.Log("gameover Blue win");
             }
             SoundsControl.GameOver();
         }
